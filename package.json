@@ -1,0 +1,10 @@
+{
+  "name": "kmrl-document-intelligence",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start:platform": "node services/ingestion/src/server.mjs",
+    "test:platform": "node --test services/ingestion/test/*.test.mjs services/notification-routing/test/*.test.mjs"
+  }
+}
